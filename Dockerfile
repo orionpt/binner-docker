@@ -8,6 +8,6 @@ RUN  wget https://github.com/replaysMike/Binner/releases/download/v2.0.59/Binner
 
 RUN  tar zxfp ./Binner_linux-arm-2.0.59.tar.gz
 
-RUN  sudo chmod +x ./Binner.Web
+RUN  chmod +x ./Binner.Web
 
 CMD ./Binner.Web
