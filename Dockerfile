@@ -10,4 +10,6 @@ RUN  tar zxfp ./Binner_linux-arm-2.0.59.tar.gz
 
 RUN  chmod +x ./Binner.Web
 
+RUN rm -f Binner_linux-arm-2.0.59.tar.gz
+
 CMD ./Binner.Web
